@@ -15,9 +15,10 @@ Eight early-game policy cards that reward settling far from your Capital.
 
 ## Status
 Work in progress, **untested in game**.
-- Cards, text and unlock civics are defined (unlock civics are placeholders to tune).
-- Implemented in Lua: Spirit, Pilgrimage, Delegations.
-- Still to do: Craftsmen, Expeditions, Scholars, Militia, Raiders (see TODO in `Scripts/FrontierPolicies.lua`).
+- All eight cards now have logic (Lua + unit abilities in `Data/FrontierPolicies.xml`).
+- Unverified engine names that may need adjusting on first load: `MODIFIER_UNIT_ADJUST_IGNORE_TERRAIN_COST` (Expeditions), `MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH` (Militia/Raiders), and the Lua calls `SetBuildCharges`, `GetAbility():ChangeAbilityCount`.
+- Scholars is approximated as +1 Science of research progress per qualifying city per turn.
+- Unlock civics are placeholders to tune.
 
 ## Install
 Copy this folder into your Civilization VI `Mods` folder and enable it under Additional Content.

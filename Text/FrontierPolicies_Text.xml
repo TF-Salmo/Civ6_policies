@@ -21,5 +21,11 @@
     <Replace Tag="LOC_POLICY_FRONTIER_MILITIA_DESCRIPTION" Language="en_US"><Text>Units receive +5 [ICON_STRENGTH] Combat Strength while within 3 tiles of a city with 4 or fewer Population.</Text></Replace>
     <Replace Tag="LOC_POLICY_FRONTIER_RAIDERS_NAME" Language="en_US"><Text>Frontier Raiders</Text></Replace>
     <Replace Tag="LOC_POLICY_FRONTIER_RAIDERS_DESCRIPTION" Language="en_US"><Text>Units receive +2 [ICON_STRENGTH] Combat Strength while within 6 tiles of a city with 4 or fewer Population.</Text></Replace>
+    <Replace Tag="LOC_ABILITY_FRONTIER_MILITIA_NAME" Language="en_US"><Text>Frontier Militia</Text></Replace>
+    <Replace Tag="LOC_ABILITY_FRONTIER_MILITIA_DESCRIPTION" Language="en_US"><Text>+5 Combat Strength near a small city.</Text></Replace>
+    <Replace Tag="LOC_ABILITY_FRONTIER_RAIDERS_NAME" Language="en_US"><Text>Frontier Raiders</Text></Replace>
+    <Replace Tag="LOC_ABILITY_FRONTIER_RAIDERS_DESCRIPTION" Language="en_US"><Text>+2 Combat Strength near a small city.</Text></Replace>
+    <Replace Tag="LOC_ABILITY_FRONTIER_EXPEDITIONS_NAME" Language="en_US"><Text>Frontier Expeditions</Text></Replace>
+    <Replace Tag="LOC_ABILITY_FRONTIER_EXPEDITIONS_DESCRIPTION" Language="en_US"><Text>Ignores Woods, Rainforest, Hills and River movement penalties.</Text></Replace>
   </LocalizedText>
 </GameData>
