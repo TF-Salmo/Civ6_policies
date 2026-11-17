@@ -1,13 +1,31 @@
 -- Frontier Expansion Policies: gameplay script (UNTESTED first draft).
 -- Cards are defined in Data/FrontierPolicies.xml; effects needing custom logic live here.
 
-local FRONTIER_DISTANCE = 6
+local FRONTIER_DISTANCE = 5
+
+-- Each card expires once the owner discovers its tech (balanced per era).
+local EXPIRY_TECH = {
+    ["POLICY_FRONTIER_SPIRIT"] = "TECH_CURRENCY",
+    ["POLICY_FRONTIER_CRAFTSMEN"] = "TECH_MASONRY",
+    ["POLICY_FRONTIER_EXPEDITIONS"] = "TECH_IRRIGATION",
+    ["POLICY_FRONTIER_PILGRIMAGE"] = "TECH_WRITING",
+    ["POLICY_FRONTIER_SCHOLARS"] = "TECH_WRITING",
+    ["POLICY_FRONTIER_DELEGATIONS"] = "TECH_CURRENCY",
+    ["POLICY_FRONTIER_MILITIA"] = "TECH_IRON_WORKING",
+    ["POLICY_FRONTIER_RAIDERS"] = "TECH_BRONZE_WORKING",
+}
 
 local function HasPolicy(playerID, policyType)
     local info = GameInfo.Policies[policyType]
     if info == nil then return false end
     local player = Players[playerID]
-    return player ~= nil and player:GetCulture():IsPolicyActive(info.Index)
+    if player == nil or not player:GetCulture():IsPolicyActive(info.Index) then return false end
+    local tech = EXPIRY_TECH[policyType]
+    if tech ~= nil and GameInfo.Technologies[tech] ~= nil
+       and player:GetTechs():HasTech(GameInfo.Technologies[tech].Index) then
+        return false -- expired
+    end
+    return true
 end
 
 local function IsFrontier(playerID, city)

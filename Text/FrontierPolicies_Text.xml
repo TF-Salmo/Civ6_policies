@@ -6,21 +6,21 @@
     <Replace Tag="LOC_FRONTIER_MOD_DESC" Language="en_US"><Text>Adds Frontier Spirit, Craftsmen, Expeditions, Pilgrimage, Scholars, Delegations, Militia and Raiders.</Text></Replace>
 
     <Replace Tag="LOC_POLICY_FRONTIER_SPIRIT_NAME" Language="en_US"><Text>Frontier Spirit</Text></Replace>
-    <Replace Tag="LOC_POLICY_FRONTIER_SPIRIT_DESCRIPTION" Language="en_US"><Text>Cities founded at least 6 tiles from your Capital begin with 25% of a Monument already built.</Text></Replace>
+    <Replace Tag="LOC_POLICY_FRONTIER_SPIRIT_DESCRIPTION" Language="en_US"><Text>Cities founded at least 5 tiles from your Capital begin with 25% of a Monument already built. Expires when you discover Currency.</Text></Replace>
     <Replace Tag="LOC_POLICY_FRONTIER_CRAFTSMEN_NAME" Language="en_US"><Text>Frontier Craftsmen</Text></Replace>
-    <Replace Tag="LOC_POLICY_FRONTIER_CRAFTSMEN_DESCRIPTION" Language="en_US"><Text>Builders trained in cities with 3 or fewer Population receive +1 Build Charge.</Text></Replace>
+    <Replace Tag="LOC_POLICY_FRONTIER_CRAFTSMEN_DESCRIPTION" Language="en_US"><Text>Builders trained in cities with 3 or fewer Population receive +1 Build Charge. Expires when you discover Masonry.</Text></Replace>
     <Replace Tag="LOC_POLICY_FRONTIER_EXPEDITIONS_NAME" Language="en_US"><Text>Frontier Expeditions</Text></Replace>
-    <Replace Tag="LOC_POLICY_FRONTIER_EXPEDITIONS_DESCRIPTION" Language="en_US"><Text>Settlers ignore movement penalties from Woods, Rainforest, Hills, and River crossings.</Text></Replace>
+    <Replace Tag="LOC_POLICY_FRONTIER_EXPEDITIONS_DESCRIPTION" Language="en_US"><Text>Settlers ignore movement penalties from Woods, Rainforest, Hills, and River crossings. Expires when you discover Irrigation.</Text></Replace>
     <Replace Tag="LOC_POLICY_FRONTIER_PILGRIMAGE_NAME" Language="en_US"><Text>Frontier Pilgrimage</Text></Replace>
-    <Replace Tag="LOC_POLICY_FRONTIER_PILGRIMAGE_DESCRIPTION" Language="en_US"><Text>Cities founded at least 6 tiles from your Capital begin with +25 [ICON_FAITH] Faith.</Text></Replace>
+    <Replace Tag="LOC_POLICY_FRONTIER_PILGRIMAGE_DESCRIPTION" Language="en_US"><Text>Cities founded at least 5 tiles from your Capital begin with +25 [ICON_FAITH] Faith. Expires when you discover Writing.</Text></Replace>
     <Replace Tag="LOC_POLICY_FRONTIER_SCHOLARS_NAME" Language="en_US"><Text>Frontier Scholars</Text></Replace>
-    <Replace Tag="LOC_POLICY_FRONTIER_SCHOLARS_DESCRIPTION" Language="en_US"><Text>Cities founded at least 6 tiles from your Capital receive +1 [ICON_SCIENCE] Science until they reach 7 Population.</Text></Replace>
+    <Replace Tag="LOC_POLICY_FRONTIER_SCHOLARS_DESCRIPTION" Language="en_US"><Text>Cities founded at least 5 tiles from your Capital receive +1 [ICON_SCIENCE] Science until they reach 7 Population. Expires when you discover Writing.</Text></Replace>
     <Replace Tag="LOC_POLICY_FRONTIER_DELEGATIONS_NAME" Language="en_US"><Text>Frontier Delegations</Text></Replace>
-    <Replace Tag="LOC_POLICY_FRONTIER_DELEGATIONS_DESCRIPTION" Language="en_US"><Text>The first time you discover a City-State, gain 25 Influence Points.</Text></Replace>
+    <Replace Tag="LOC_POLICY_FRONTIER_DELEGATIONS_DESCRIPTION" Language="en_US"><Text>The first time you discover a City-State, gain 25 Influence Points. Expires when you discover Currency.</Text></Replace>
     <Replace Tag="LOC_POLICY_FRONTIER_MILITIA_NAME" Language="en_US"><Text>Frontier Militia</Text></Replace>
-    <Replace Tag="LOC_POLICY_FRONTIER_MILITIA_DESCRIPTION" Language="en_US"><Text>Units receive +5 [ICON_STRENGTH] Combat Strength while within 3 tiles of a city with 4 or fewer Population.</Text></Replace>
+    <Replace Tag="LOC_POLICY_FRONTIER_MILITIA_DESCRIPTION" Language="en_US"><Text>Units receive +5 [ICON_STRENGTH] Combat Strength while within 3 tiles of a city with 4 or fewer Population. Expires when you discover Iron Working.</Text></Replace>
     <Replace Tag="LOC_POLICY_FRONTIER_RAIDERS_NAME" Language="en_US"><Text>Frontier Raiders</Text></Replace>
-    <Replace Tag="LOC_POLICY_FRONTIER_RAIDERS_DESCRIPTION" Language="en_US"><Text>Units receive +2 [ICON_STRENGTH] Combat Strength while within 6 tiles of a city with 4 or fewer Population.</Text></Replace>
+    <Replace Tag="LOC_POLICY_FRONTIER_RAIDERS_DESCRIPTION" Language="en_US"><Text>Units receive +2 [ICON_STRENGTH] Combat Strength while within 6 tiles of a city with 4 or fewer Population. Expires when you discover Bronze Working.</Text></Replace>
     <Replace Tag="LOC_ABILITY_FRONTIER_MILITIA_NAME" Language="en_US"><Text>Frontier Militia</Text></Replace>
     <Replace Tag="LOC_ABILITY_FRONTIER_MILITIA_DESCRIPTION" Language="en_US"><Text>+5 Combat Strength near a small city.</Text></Replace>
     <Replace Tag="LOC_ABILITY_FRONTIER_RAIDERS_NAME" Language="en_US"><Text>Frontier Raiders</Text></Replace>
